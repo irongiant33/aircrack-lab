@@ -61,3 +61,4 @@ GL.iNet GL-AR300M16 Mini Travel Wireless Pocket Router [ref 6](#references) is t
 7. Linux Kernel Driver Database: https://cateee.net/lkddb/
 8. GL.iNet AR300M (https://www.gl-inet.com/products/gl-ar300m/)
 9. OpenWRT (https://openwrt.org/)
+10. Wifiphisher - an alternate means of gaining access to a WiFi network that doesn't entail deauthentication (https://github.com/wifiphisher/wifiphisher)
