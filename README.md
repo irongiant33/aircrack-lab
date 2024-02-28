@@ -33,9 +33,9 @@ PSK =  PBKDF2(password, SSID, SSID length, 4096, 256) where PB KDF2 is a method 
 
 ## Hardware
 
-Alfa AWUS036ACM [ref ](#references)
+Alfa AWUS036ACM ([ref 5](#references)) is a WiFi card that can be placed into monitor mode. Generally, I prefer the MediaTek chips which is typically denoted in Alfa's naming convention with the "M" suffix in their name. If Alfa omits the "M", the WiFi chip is typically a RealTek. In either case, it is best practice to check compatibility with tools like the one listed at [ref 6](#references) that crawl the Linux Kernel Driver Database ([ref 7](#references)) for compatibility. As the below photos show, the MediaTek driver is supported by default in the Linux kernel while one of the RealTek chips are not supported! Installing drivers can be fun I guess, depending on your perspective?
 
-GL.iNet GL-AR300M16 Mini Travel Wireless Pocket Router [ref ](#references)
+GL.iNet GL-AR300M16 Mini Travel Wireless Pocket Router [ref 6](#references) is the WiFi router that we will target with the Alfa AWUS036ACM. While it is out of the scope of this project, I prefer the GL.iNet routers because they are loaded with OpenWRT ([ref 9](#references)) out of the box. This can open the door to some fun experimentation later rather than routers that have closed source firmware.
 
 ## Usage
 
@@ -56,6 +56,8 @@ GL.iNet GL-AR300M16 Mini Travel Wireless Pocket Router [ref ](#references)
 2. Tutorials on aircrack's website: https://aircrack-ng.org/doku.php?id=tutorial
 3. WiFi Alliance on WPA3 security: https://www.wi-fi.org/discover-wi-fi/security
 4. WPA2 Packet Capture Walkthrough: https://www.aircrack-ng.org/doku.php?id=wpa_capture
-
-https://www.alfa.com.tw/products/awus036acm?variant=39477234597960
-https://www.gl-inet.com/products/gl-ar300m/
+5. Alfa AWUS036ACM (https://www.alfa.com.tw/products/awus036acm?variant=39477234597960)
+6. Hardware for Linux Checker: https://linux-hardware.org/?view=search
+7. Linux Kernel Driver Database: https://cateee.net/lkddb/
+8. GL.iNet AR300M (https://www.gl-inet.com/products/gl-ar300m/)
+9. OpenWRT (https://openwrt.org/)
