@@ -39,6 +39,16 @@ Alfa AWUS036ACM ([ref 5](#references)) is a WiFi card that can be placed into mo
 
 GL.iNet GL-AR300M16 Mini Travel Wireless Pocket Router ([ref 6](#references)) is the WiFi router that we will target with the Alfa AWUS036ACM. While it is out of the scope of this project, I prefer the GL.iNet routers because they are loaded with OpenWRT ([ref 9](#references)) out of the box. This can open the door to some fun experimentation later rather than routers that have closed source firmware.
 
+### Total Materials Needed
+
+| Device | Cost | Notes |
+|--------|------|-------|
+| Alfa AWUS036ACM | $42 | this can be substituted for any WiFi card that can be put in monitor mode; however, check compatibility with Linux drivers |
+| GL.iNet GL-AR300M16 | $32 | any WiFi router supporting WPA/WPA2 will suffice |
+| Computer | variable | Compatible with all dependencies |
+| Client device | variable | capable of connecting to  WiFi router. |
+| **Total** | $74 | assuming you have a computer & spare client device|
+
 ## Usage
 
 1. `sudo airmon-ng` shows you the wireless interfaces that you have available, as well as their chipset. Not all chipsets are able to enter monitor mode, so ensure that your chipset is compliant. The chipset associated with the Alfa AC1200 is the MediaTek Inc MT7612U 
